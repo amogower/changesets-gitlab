@@ -68,7 +68,7 @@ interface PublishedPackage {
   version: string
 }
 
-type PublishResult =
+export type PublishResult =
   | {
       published: false
     }
